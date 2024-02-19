@@ -24,7 +24,7 @@ spec:
       - name: APP_NAME
         value: "object-detection-rest"
       - name: GIT_REPO
-        value: "https://gitea.apps.cluster-guid.ocp4_base_domain/lab-user/arc-model.git"
+        value: "https://gitea.apps.cluster-45mw6.sandbox1558.opentlc.com/lab-user/arc-model.git"
       - name: GIT_REVISION
         value: "main"
       - name: IMAGE_NAME
@@ -34,11 +34,11 @@ spec:
       - name: VERSION
         value: 3.9-ubi8
       - name: KUSTOMIZE_GIT_URL_DEV
-        value: https://gitea.apps.cluster-guid.ocp4_base_domain/lab-user/retail-dev-gitops.git
+        value: https://gitea.apps.cluster-45mw6.sandbox1558.opentlc.com/lab-user/retail-dev-gitops.git
       - name: KUSTOMIZE_GIT_CONTEXT_DIR_DEV
         value: overlays/development/
       - name: KUSTOMIZE_GIT_URL
-        value: https://gitea.apps.cluster-guid.ocp4_base_domain/lab-user/retail-prod-gitops.git
+        value: https://gitea.apps.cluster-45mw6.sandbox1558.opentlc.com/lab-user/retail-prod-gitops.git
       - name: KUSTOMIZE_GIT_REVISION
         value: main
       - name: KUSTOMIZE_GIT_CONTEXT_DIR

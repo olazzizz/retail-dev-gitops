@@ -15,7 +15,7 @@ spec:
   - default: object-detection-rest
     name: APP_NAME
     type: string
-  - default: "https://gitea.apps.cluster-guid.ocp4_base_domain/lab-user/arc-model.git"
+  - default: "https://gitea.apps.cluster-45mw6.sandbox1558.opentlc.com/lab-user/arc-model.git"
     name: GIT_REPO
     type: string
   - default: "main"
@@ -33,7 +33,7 @@ spec:
   - name: KUSTOMIZE_GIT_URL_DEV
     type: string
     description: The kustomize git repository url
-    default: https://gitea.apps.cluster-guid.ocp4_base_domain/lab-user/retail-dev-gitops.git
+    default: https://gitea.apps.cluster-45mw6.sandbox1558.opentlc.com/lab-user/retail-dev-gitops.git
   - name: KUSTOMIZE_GIT_CONTEXT_DIR_DEV
     type: string
     default: overlays/development/
@@ -41,7 +41,7 @@ spec:
   - name: KUSTOMIZE_GIT_URL
     type: string
     description: The kustomize git repository url
-    default: https://gitea.apps.cluster-guid.ocp4_base_domain/lab-user/retail-prod-gitops.git
+    default: https://gitea.apps.cluster-45mw6.sandbox1558.opentlc.com/lab-user/retail-prod-gitops.git
   - name: KUSTOMIZE_GIT_REVISION
     type: string
     default: main
